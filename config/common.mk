@@ -108,7 +108,8 @@ PRODUCT_COPY_FILES += \
     vendor/slim/prebuilt/common/etc/init.d/98tweaks:system/etc/init.d/98tweaks \
     vendor/slim/prebuilt/common/etc/init_trigger.disabled:system/etc/init_trigger.disabled \
     vendor/slim/prebuilt/common/etc/liberty.bsh:system/etc/liberty.bsh \
-    vendor/slim/prebuilt/common/etc/sysctl.conf:system/etc/sysctl.conf    
+    vendor/slim/prebuilt/common/etc/sysctl.conf:system/etc/sysctl.conf \
+    vendor/slim/prebuilt/common/lib/soundfx/libcyanogen-dsp.so:system/lib/soundfx/libcyanogen-dsp.so 
 
 PRODUCT_COPY_FILES += \
     vendor/slim/prebuilt/common/etc/cron/cron.conf:system/etc/cron/cron.conf \
